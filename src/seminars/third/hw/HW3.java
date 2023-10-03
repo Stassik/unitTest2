@@ -1,5 +1,12 @@
 package seminars.third.hw;
 
+import org.junit.jupiter.api.Test;
+import seminars.third.tdd.User;
+import seminars.third.tdd.UserRepository;
+
+import java.util.ArrayList;
+import java.util.Random;
+
 public class HW3 {
     // HW 3.1. Нужно покрыть тестами метод на 100%
     // Метод проверяет, является ли целое число записанное в переменную n, чётным (true) либо нечётным (false).

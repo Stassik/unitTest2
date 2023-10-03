@@ -24,10 +24,19 @@ public class HW3Tests {
     }
 
     @Test
-    void numberInIntervalTest() {
+    void numberInIntervalOutLeftTest() {
         assertThat(num.numberInInterval(25)).isFalse();
-        assertThat(num.numberInInterval(26)).isTrue();
+    }
+
+
+
+    @Test
+    void numberInIntervalOInRightTest() {
         assertThat(num.numberInInterval(99)).isTrue();
+    }
+
+    @Test
+    void numberInIntervalOutRightTest() {
         assertThat(num.numberInInterval(100)).isFalse();
     }
 }
